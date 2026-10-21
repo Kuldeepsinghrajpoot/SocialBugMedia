@@ -10,13 +10,14 @@
  * (Favicons app/icon.png, app/apple-icon.png, app/favicon.ico must stay as
  * local files — Next.js only picks those up from the app/ folder.)
  */
-export const CLD = {
+export const CLD = {  
+  
   logo: {
     full: "https://res.cloudinary.com/q00g4kki/image/upload/v1790575700/sb-logo-full.png",
 
     iconDark: "https://res.cloudinary.com/q00g4kki/image/upload/v1790575700/sb-icon-dark.png",
   },
-  ogImage: "https://res.cloudinary.com/q00g4kki/image/upload/v1792048396/889b0331-c88d-48e1-bafd-ce48867dc952.png",
+  ogImage: "https://res.cloudinary.com/q00g4kki/image/upload/v1792591895/8f07009b-da7d-49b8-91f4-13666a1c1309.png",
 
 
   founders: {
