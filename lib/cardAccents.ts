@@ -5,6 +5,7 @@ export const CARD_ACCENTS = [
   { from: "#ff9a2e", to: "#ffbb6b", text: "#ff8a1f", soft: "rgba(255,154,46,0.09)", glow: "rgba(255,154,46,0.38)" },
 ];
 
+
 export function cardAccentFor(index: number) {
   const n = CARD_ACCENTS.length;
   return CARD_ACCENTS[((index % n) + n) % n];
