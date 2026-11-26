@@ -11,6 +11,7 @@ import NextTopLoader from 'nextjs-toploader';
 import MobileCTABar from "@/components/ui/MobileCTABar";
 import JsonLd from "@/components/seo/JsonLd";
 import CustomCursor from "@/components/ui/CustomCursor";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://socialbugmedia.in"),
@@ -216,6 +217,7 @@ export default function RootLayout({
           <WhatsAppButton />
           <MobileCTABar />
         </SmoothScroll>
+        <SpeedInsights />
       </body>
     </html>
   );
